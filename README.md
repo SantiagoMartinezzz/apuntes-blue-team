@@ -40,5 +40,13 @@ dirb http://10.10.134.195
 ### Buenas Prácticas del Analista SOC
 - Al mitigar una amenaza, siempre se debe registrar el incidente en bases de datos de inteligencia. Documentar el origen, el objetivo y el método es vital para la defensa proactiva.
 
+## 🔍 Módulo: Gestión de Vulnerabilidades (CVE y CVSS)
+
+### Conceptos Clave
+- **CVE:** El diccionario universal de vulnerabilidades de la industria (Formato: `CVE-AÑO-NÚMERO`).
+- **CVSS:** Sistema de puntuación del 0 al 10 que define la gravedad de un fallo de seguridad. Permite al Blue Team priorizar los riesgos.
+- **PoC (Prueba de Concepto):** Scripts públicos que demuestran cómo explotar una vulnerabilidad específica.
+
+
 
 
