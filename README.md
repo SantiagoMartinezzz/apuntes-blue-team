@@ -30,3 +30,15 @@ dirb http://10.10.134.195
 3. **Monitoreo de Logs:** Configurar un script de automatización o un sistema SIEM para detectar picos anormales de peticiones web (fuerza bruta de directorios) y bloquear automáticamente las IPs que intenten escanear el sitio.
 
 
+   ## 🕵️‍♂️ Módulo: Introducción a la Seguridad Defensiva (SOC)
+
+### Conceptos Clave
+- **SOC (Security Operations Centre):** Centro donde se monitorea y defiende la infraestructura digital.
+- **Fuerza Bruta:** Ataque automatizado con cientos de intentos de login para adivinar credenciales (ej. el ataque al usuario `dave.saunders`).
+- **Threat Intelligence (Inteligencia de Amenazas):** Recolección y documentación de datos de ataques (IPs, usuarios, URLs, nombres de grupos de hackers) para compartirlos con la comunidad y prevenir futuros incidentes.
+
+### Buenas Prácticas del Analista SOC
+- Al mitigar una amenaza, siempre se debe registrar el incidente en bases de datos de inteligencia. Documentar el origen, el objetivo y el método es vital para la defensa proactiva.
+
+
+
