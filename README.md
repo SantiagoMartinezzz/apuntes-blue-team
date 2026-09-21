@@ -54,6 +54,25 @@ dirb http://10.10.134.195
 - **`echo`:** Imprime texto en la terminal. 
   - *Uso simple:* `echo TryHackMe`
   - *Uso con múltiples palabras:* `echo "Hello World"` (requiere comillas).
+ 
+  - ### Comandos de Navegación Esenciales
+- **`pwd`:** Imprime el directorio de trabajo actual (¿Dónde estoy parado?).
+- **`ls`:** Lista los archivos y carpetas del directorio actual (las carpetas se ven azules).
+- **`cd [carpeta]`:** Cambia de directorio. `cd ..` sirve para retroceder un nivel.
+- **`cat [archivo]`:** Muestra el contenido completo de un archivo en la terminal.
+
+### Comandos de Búsqueda y Filtrado (Análisis de Logs)
+- **`find -name [archivo]`:** Busca archivos por su nombre exacto en el sistema.
+  - *Ejemplo:* `find -name passwords.txt`
+- **`grep "[texto]" [archivo]`:** Busca y extrae cadenas de texto específicas dentro de un archivo. Es fundamental en el Blue Team para analizar archivos de logs gigantescos.
+  - *Ejemplo:* `grep "THM" access.log`
+
+### Operadores y Redireccionadores en Bash
+- **`&`:** Ejecuta un comando en segundo plano (*background*) para poder seguir usando la terminal.
+- **`&&`:** Ejecuta dos comandos en cadena, esperando que el primero termine con éxito antes de iniciar el segundo.
+- **`>`:** Redirecciona la salida de un comando hacia un archivo, **sobrescribiendo** todo su contenido.
+- **`>>`:** Redirecciona la salida hacia un archivo, **añadiendo** el texto al final sin borrar lo existente.
+
 
 
 
