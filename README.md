@@ -47,6 +47,13 @@ dirb http://10.10.134.195
 - **CVSS:** Sistema de puntuación del 0 al 10 que define la gravedad de un fallo de seguridad. Permite al Blue Team priorizar los riesgos.
 - **PoC (Prueba de Concepto):** Scripts públicos que demuestran cómo explotar una vulnerabilidad específica.
 
+## 🐧 Fundamentos de Linux y Bash (`Terminal Intro`)
+
+### Comandos de Identidad y Salida
+- **`whoami`:** Muestra el nombre del usuario actual en el sistema. Crucial para verificar privilegios antes de ejecutar herramientas de red.
+- **`echo`:** Imprime texto en la terminal. 
+  - *Uso simple:* `echo TryHackMe`
+  - *Uso con múltiples palabras:* `echo "Hello World"` (requiere comillas).
 
 
 
